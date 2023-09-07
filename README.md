@@ -9,6 +9,7 @@
 Data Analysis of Bikeshare
 
 ### Description
+
 Welcome to the Bikeshare Customer Data Exploration tool! Our company is dedicated
 to gaining valuable insights from our Bikeshare customer data in three major cities: Chicago, New York City, 
 and Washington DC. We aim to explore various aspects of our operations, including the most frequently
@@ -38,7 +39,7 @@ To start exploring our Bikeshare customer data, follow these simple steps:
 - Python 3
 - Pandas
 - Numpy
-- Dataset: chicago.csv, new_york_city.csv, washington.csv
+- Dataset: `chicago.csv, new_york_city.csv, washington.csv`
  
 ### Credits
 
