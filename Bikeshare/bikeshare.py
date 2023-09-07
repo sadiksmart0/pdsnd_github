@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -12,6 +12,9 @@ months = ['January', 'February', 'March', 'April', 'May', 'June', \
 
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', \
         'Saturday', 'Sunday', 'All']
+
+welcome = "WELCOME TO OUR BIKESHARE ANALYSIS TOOL. PAY CLOSE ATTENTION TO PROMPT"
+
 data_switch = True
 
 def get_filters():
@@ -195,6 +198,7 @@ def display_data(df, data_switch):
         
 
 def main():
+    print(welcome\n)
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
