@@ -2,7 +2,7 @@
 
 ### Date created
 
-07/09/2023
+- 07/09/2023
 
 ### Project Title
 
@@ -31,14 +31,14 @@ To start exploring our Bikeshare customer data, follow these simple steps:
 
 - Run the program by executing the following command:
 
-`python bikeshare_data_tool.py`
+`ipython bikeshare.py` or `python bikeshare.py`
 
 ### Files used
 
 - Python 3
 - Pandas
 - Numpy
-- chicago.csv, new_york_city.csv, washington.csv
+- Dataset: chicago.csv, new_york_city.csv, washington.csv
  
 ### Credits
 
